@@ -70,12 +70,12 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li><a href="index.html">Home</a></li> 
+                                <li><a href="index.html">Home</a></li>
                                 <li><a href="about-us.html">About Us</a></li>
-                                 <li><a href="services.html">Services</a></li>
+                                <li><a href="services.html">Services</a></li>
                                 <li><a href="product.html">Products</a></li>
                                 <li><a href="achievements.html">Achievements</a></li>
-                               <li><a href="careers.html">Careers</a></li>
+                                <li><a href="careers.html">Careers</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
 
@@ -104,7 +104,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcumb-content">
-                        <h3 class="breadcumb-title">Contact</h3>
+                        <h3 class="breadcumb-title">Contact Us</h3>
                     </div>
                 </div>
             </div>
@@ -112,75 +112,65 @@
     </section>
     <!-- ##### Breadcumb Area End ##### -->
 
-    <section class="south-contact-area section-padding-100">
+     <!-- ##### Featured Properties Area Start ##### -->
+    <section class="featured-properties-area section-padding-100-50">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="contact-heading">
-                        <h6>Contact info</h6>
+                    <div class="section-heading wow fadeInUp">
+                        <h2>OUR ACHIEVEMENTS</h2>
+                        <p>Ukulima Agrovet Services Limited</p>
                     </div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="content-sidebar">
-                        <!-- Office Hours -->
-                        <div class="weekly-office-hours">
-                            <ul>
-                                <li class="d-flex align-items-center justify-content-between"><span>Monday - Friday</span> <span>08 AM - 17 PM</span></li>
-                                <li class="d-flex align-items-center justify-content-between"><span>Saturday</span> <span>09 AM - 14 PM</span></li>
-                                <li class="d-flex align-items-center justify-content-between"><span>Sunday</span> <span>Closed</span></li>
-                            </ul>
-                        </div>
-                        <!-- Address -->
-                        <div class="address mt-30">
-                            <h6><img src="img/icons/phone-call.png" alt=""> +254 722 566 917</h6>
-                            <h6><img src="img/icons/envelope.png" alt=""> info@ukulimaagrovet.co.ke</h6>
-                            <h6><img src="img/icons/location.png" alt=""> Ukulima House, Behind Family 
-                                                                            Bank LTD, Next Top View Motel, 
-                                                                            Kerugoya Town.</h6>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Contact Form Area -->
-                <div class="col-12 col-lg-8">
-                    <div class="contact-form">
-                        <form action="messaging.php" method="post">
-                            <div class="form-group">
-                                <input type="text" class="form-control"  name="name" placeholder="Your Names">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="telephone" placeholder="Your Phone">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" name="email"  placeholder="Your Email">
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-                            </div>
-                            <button type="submit" class="btn south-btn">Send Message</button>
-                        </form>
-                    </div>
-                </div>
+                <p> <?php 
+	if(!isset($_POST['submit'])){
+		$name = $_POST['name'];
+		$email = $_POST['email'];
+		$telephone = $_POST['telephone'];
+		$message = $_POST['message']; 
+
+echo "$email";
+
+		$to = "info@ukulimaagrovet.co.ke";
+		$subject = 'Message from Ukulima Agrovet'."<br>";
+		$msg ="Name:".$name."<br>"."Telephone:".$subject."wrote the following:".$message;
+		$headers ="From: ".$email;
+         if(mail($to,$subject,$msg,$headers)){
+         	
+	      echo "<b>sent<b>";
+}
+
+else {
+	echo "yolo";
+	
+}
+
+       
+
+
+	}
+	else
+	{
+		echo "try again";
+	}
+
+ ?></p>
+
+                
+               
+                 
+               
             </div>
         </div>
     </section>
-
-    <!-- Google Maps -->
-   <!--  <div class="map-area mb-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div id="googleMap" class="googleMap"></div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    <!-- ##### Featured Properties Area End ##### -->
 
 
-       <!-- ##### Footer Area Start ##### -->
+          <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area section-padding-100-0 bg-img gradient-background-overlay" style="background-image: url(img/bg-img/cta.jpg);">
         <!-- Main Footer Area -->
         <div class="main-footer-area">
