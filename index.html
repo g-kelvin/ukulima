@@ -1,490 +1,831 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <title>UKULIMA AGROVET</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/pe-icons.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <script src="js/jquery.js"></script>
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/nice.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon-57x57.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <script type="text/javascript">
-    jQuery(document).ready(function($){
-	'use strict';
-      	jQuery('body').backstretch([
-	        "images/bg/bg1.png",
-	        "images/bg/backg2.jpg",
-	        "images/bg/bacg3.jpg"
-	    ], {duration: 5000, fade: 500, centeredY: true });
+    <!-- Title  -->
+    <title>Prime Plan Limited</title>
 
-		$("#mapwrapper").gMap({ controls: false,
-         	scrollwheel: false,
-         	markers: [{ 	
-              	latitude:40.7566,
-				longitude: -73.9863,
-          	icon: { image: "images/marker.png",
-              	iconsize: [44,44],
-          		iconanchor: [12,46],
-          		infowindowanchor: [12, 0] } }],
-          	icon: { 
-              	image: "images/marker.png", 
-             	iconsize: [26, 46],
-              	iconanchor: [12, 46],
-              	infowindowanchor: [12, 0] },
-         	latitude:40.7566,
-         	longitude: -73.9863,
-          	zoom: 14 });
-    });
-    </script>
-</head><!--/head-->
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
 <body>
-<div id="preloader"></div>
-    <header class="navbar navbar-inverse navbar-fixed-top " role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <i class="fa fa-bars"></i>
-                </button>
-                 <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span>UKULIMA AGROVET</h1></a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="achievements.html">Achievements</a></li>
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product<i class="icon-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="portfolio.html">Product</a></li>
-                            <li><a href="new.html">New Arrivals</a></li>
-
-                        </ul>
-                    </li>
-                     <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<i class="icon-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="gallery.html">gallery</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="career.html">Career</a></li> 
-                    <li><a href="contact-us.html">Contact</a></li> 
-                    <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
-                </ul>
-            </div>
-        </div>
-    </header><!--/header-->
-
-    <section id="main-slider" class="no-margin">
-        <div class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content center centered">
-                                	<span class="home-icon pe-7s-gleam bounce-in"></span>
-                                    <h2 class="boxed animation animated-item-1 fade-down">We en devour to help you make an impact</h2>
-                                    <p class="boxed animation animated-item-2 fade-up">Our expertise will guide you to success. Without Fail.</p>
-                                    <br>
-                                    <a class="btn btn-md animation bounce-in" href="#services">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
-    </section><!--/#main-slider-->
-
-    <div id="content-wrapper">
-        <section id="services" class="white">
-            <div class="container">
-            <div class="gap"></div> 
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="center gap fade-down section-heading">
-                            <h2 class="main-title">Our Products and S ervices</h2>
-                            <hr>
-                            <p>Our products and services at ukulima Agrovet include the following</p>
-                        </div>                
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-block">
-                            <div class="pull-left bounce-in">
-                                <i class="fa fa-camera fa fa-md"></i>
-                            </div>
-                            <div class="media-body fade-up">
-                                <h3 class="media-heading">Veterinary Services</h3>
-                                <p>Nay middleton him admitting consulted and behaviour son household. Recurred advanced he oh together entrance speedily suitable. Ready tried gay state fat could boy its among shall.</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-block">
-                            <div class="pull-left bounce-in">
-                                <i class="fa fa-thumbs-o-up fa fa-md"></i>
-                            </div>
-                            <div class="media-body fade-up">
-                                <h3 class="media-heading">Animal Consultancy Services</h3>
-                                <p>Unfeeling agreeable suffering it on smallness newspaper be. So come must time no as. Do on unpleasing possession as of unreserved.</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-block">
-                            <div class="pull-left bounce-in">
-                                <i class="fa fa-ticket fa fa-md"></i>
-                            </div>
-                            <div class="media-body fade-up">
-                                <h3 class="media-heading">Animal Drugs sales and supply</h3>
-                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-                </div><!--/.row-->
-                <div class="gap"></div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-block">
-                            <div class="pull-left bounce-in">
-                                <i class="fa fa-star fa fa-md"></i>
-                            </div>
-                            <div class="media-body fade-up">
-                                <h3 class="media-heading">Animal Feeds Sales and Supply</h3>
-                                <p>Yet joy exquisite put sometimes enjoyment perpetual now. Behind lovers eat having length horses vanity say had its</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-block">
-                            <div class="pull-left bounce-in">
-                                <i class="fa fa-cogs fa fa-md"></i>
-                            </div>
-                            <div class="media-body fade-up">
-                                <h3 class="media-heading">Farmer Trainings</h3>
-                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-block">
-                            <div class="pull-left bounce-in">
-                                <i class="fa fa-google-plus fa fa-md"></i>
-                            </div>
-                            <div class="media-body fade-up">
-                                <h3 class="media-heading">Animal Care Services</h3>
-                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-                </div><!--/.row-->
-            </div>
-            <div class="gap"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="center gap fade-down section-heading">
-                            <h2 class="main-title">Our Skills and Experiences</h2>
-                            <hr>
-                            <p>Some of our Experiences</p>
-                        </div>               
-                    </div>
-                </div>
-            </div>
-            <div class="container">     
-            <div class="row">            
-	                <div class="col-md-3">
-	                    <div class="tile-progress tile-red bounce-in">
-	                        <div class="tile-header">
-	                            <h3>Best Agrovet Award</h3>
-	                            <span>Our cutting room floor is messy.</span>
-	                        </div>
-	                        <div class="tile-progressbar">
-	                            <span data-fill="65.5%" style="width: 100%;"></span>
-	                        </div>
-	                        <div class="tile-footer">
-	                            <h4>
-	                                <span class="pct-counter counter">100</span>%
-	                            </h4>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="col-md-3">
-	                    <div class="tile-progress tile-cyan bounce-in">
-	                        <div class="tile-header">
-	                            <h3>Always Reliable</h3>
-	                            <span>How well we can sell you and your brand.</span>
-	                        </div>
-	                        <div class="tile-progressbar">
-	                            <span data-fill="98.5%" style="width: 100%;"></span>
-	                        </div>
-	                        <div class="tile-footer">
-	                            <h4>
-	                                <span class="pct-counter counter">100</span>%
-	                            </h4>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="col-md-3">
-	                    <div class="tile-progress tile-primary bounce-in">
-	                        <div class="tile-header">
-	                            <h3>Best Products</h3>
-	                            <span>We love servers and stuff.</span>
-	                        </div>
-	                        <div class="tile-progressbar">
-	                            <span data-fill="90%" style="width: 100%;"></span>
-	                        </div>
-	                        <div class="tile-footer">
-	                            <h4>
-	                                <span class="pct-counter counter">100</span>%
-	                            </h4>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="col-md-3">
-	                    <div class="tile-progress tile-pink bounce-in">
-	                        <div class="tile-header">
-	                            <h3>100% productivity</h3>
-	                            <span>We done make good joe, though.</span>
-	                        </div>
-	                        <div class="tile-progressbar">
-	                            <span data-fill="10%" style="width: 100%;"></span>
-	                        </div>
-	                        <div class="tile-footer">
-	                            <h4>
-	                                <span class="pct-counter counter">100</span>%
-	                            </h4>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div><!--/.row-->
-	            <div class="gap"></div>
-        	</div>
-        </section>
-
-        <section id="stats" class="divider-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="center bounce-in">
-                            <span class="stat-icon"><span class="pe-7s-timer bounce-in"></span></span>
-                            <h1><span class="counter">246000</span></h1>
-                            <h3>HOURS SAVED</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="center bounce-in">
-                            <span class="stat-icon"><span class="pe-7s-light bounce-in"></span></span>
-                            <h1><span class="counter">16875</span></h1>
-                            <h3>FRESH IDEAS</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="center bounce-in">
-                            <span class="stat-icon"><span class="pe-7s-graph1 bounce-in"></span></span>
-                            <h1><span class="counter">300</span></h1>
-                            <h3>OUR PARTNERS</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="center bounce-in">
-                            <span class="stat-icon"><span class="pe-7s-box2 bounce-in"></span></span>
-                            <h1><span class="counter">54875</span></h1>
-                            <h3>OUR CUSTOMERS</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gap"></div> 
-        </section> 
-
-            <section id="pricing" class="white">
-                <div class="container">
-                    <div class="center gap fade-down section-heading">
-                        <h2 class="main-title">Our Business Core Values</h2>
-                        <hr>
-                        <p>The Ukulima Family</p>
-                    </div>  
-                    <div class="gap"></div>
-                    <div id="pricing-table" class="row">
-                        <div class="col-md-3 col-xs-6 flip-in">
-                            <ul class="plan plan1">
-                                <li class="plan-name">
-                                    <h3>Reliable</h3>
-                                </li>
-                                <li class="plan-price">
-                                    <div>
-                                        <span class="price"><sup></sup>100%</span>
-                                        <small>Anytime!!!</small>
-                                    </div>
-                                </li>
-                                <li>
-                                    We are always available to our customers
-                                </li>
-                               
-                            </ul>
-                        </div><!--/.col-md-3-->
-                        <div class="col-md-3 col-xs-6 flip-in">
-                            <ul class="plan plan2 featured">
-                                <li class="plan-name">
-                                    <h3>Commitment</h3>
-                                </li>
-                                <li class="plan-price">
-                                    <div>
-                                        <span class="price"><sup></sup>100%</span>
-                                        <small>Always!!!</small>
-                                    </div>
-                                </li>
-                                <li>
-                                    We are always committed to our services.
-                                </li>
-                            </ul>
-                        </div><!--/.col-md-3-->
-                        <div class="col-md-3 col-xs-6 flip-in">
-                            <ul class="plan plan3">
-                                <li class="plan-name">
-                                    <h3>Honesty</h3>
-                                </li>
-                                <li class="plan-price">
-                                    <div>
-                                        <span class="price"><sup></sup>100%</span>
-                                        <small>Genuine!!!</small>
-                                    </div>
-                                </li>
-                                <li>
-                                    We offer genuine and original products.
-                                </li>
-                            </ul>
-                        </div><!--/.col-md-3-->
-                        <div class="col-md-3 col-xs-6 flip-in">
-                            <ul class="plan plan4">
-                                <li class="plan-name">
-                                    <h3>Dependability</h3>
-                                </li>
-                                <li class="plan-price">
-                                    <div>
-                                        <span class="price"><sup></sup>100%</span>
-                                        <small>Always!!!</small>
-                                    </div>
-                                </li>
-                                <li>
-                                  We can be depended on by all our customers
-                                <li>
-                                 
-                                </li>
-                            </ul>
-                        </div><!--/.col-md-3-->
-                    </div>
-                    <!-- <div class="sgap"></div>  -->
-                </div>
-            </section>
-
-			<!-- <div id="mapwrapper">
-				<div id="map"></div>
-			</div> -->
-
-            
-        </div>
-
-    <div id="footer-wrapper">
-        <section id="bottom" class="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 about-us-widget">
-                        <h4>Powered BY:</h4>
-                        <p>The Ukulima Agrovet Website is Powered and services by Data Consultancy Limited. To get Data Consultancy Liimited Services Click <a href="http://www.dataconsultancy.co.ke" style="color: blue"><b>Data Consultancy Limited</b></a></p>
-                    </div><!--/.col-md-3-->
-
-                    <div class="col-md-3 col-sm-6">
-                        <h4>Our Core Values</h4>
-                        <div>
-                            <ul class="arrow">
-                                <li>Honest</li>
-                                <li>Reliable</li>
-                                <li>Integrity</li>
-                                <li>Caring</li>
-                            </ul>
-                        </div>
-                    </div><!--/.col-md-3-->
-
-                    <div class="col-md-3 col-sm-6">
-                       <h4>Our YouTube</h4>
-                        <div>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <img class="widget-img" src="http://placehold.it/800x600" alt="">
-                                </div>
-                                <div class="media-body">
-                                    <span class="media-heading"><a href="#">Daily Advice</a></span>
-                                    <small class="muted">Posted 14 feb 2019</small>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <img class="widget-img" src="http://placehold.it/800x600" alt="">
-                                </div>
-                                <div class="media-body">
-                                    <span class="media-heading"><a href="#">How to Farm</a></span>
-                                    <small class="muted">Posted 02 Mar 2019</small>
-                                </div>
-                            </div>
-                        </div>  
-                    </div><!--/.col-md-3-->
-
-                    <div class="col-md-3 col-sm-6">
-                        <h4>Ukulima Agrovet</h4>
-                         <span class="icon icon-envelop"></span> <a href="#">Kerugoya,Kenya</a> <br/>
-                                <span class="icon icon-twitter"></span> <a href="#">P.O. Box 1034</a> <br/>
-                         <abbr title="Phone"><i class="fa fa-phone"></i></abbr>+254722566917<br>
-                                <span class="icon icon-facebook"></span> <a href="#">Ukilimaagrovet@gmail.com</a> <br/>
-                        </address>
-                    </div> <!--/.col-md-3-->
-                </div>
-            </div>
-        </section><!--/#bottom-->
-
-        <footer id="footer" class="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        &copy; 2019 All Rights Reserved.
-                    </div>
-                    <div class="col-sm-6">
-                        <ul class="pull-right">
-                            <li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li><!--#gototop-->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer><!--/#footer-->
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="south-load"></div>
     </div>
 
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
 
-    <script src="js/plugins.js"></script>
+        <!-- Top Header Area -->
+        <div class="top-header-area">
+            <div class="h-100 d-md-flex justify-content-between align-items-center">
+                <div class="email-address">
+                    <a href="mailto:contact@southtemplate.com">info@primeplan.com</a>
+                </div>
+                <div class="phone-number d-flex">
+                    <div class="icon">
+                        <img src="img/icons/phone-call.png" alt="">
+                    </div>
+                    <div class="number">
+                        <a href="tel:+45 677 8993000 223">+254 714 250 700</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Header Area -->
+        <div class="main-header-area" id="stickyHeader">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="southNav">
+
+                    <!-- Logo -->
+                    <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- close btn -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Our Works</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Listings</a>
+                                            <ul class="dropdown">
+                                                <li><a href="listings.html">Listings</a></li>
+                                                <li><a href="single-listings.html">Single Listings</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="listings.html">Properties</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="#">Mega Menu</a>
+                                    <div class="megamenu">
+                                        <ul class="single-mega cn-col-4">
+                                            <li class="title">Headline 1</li>
+                                            <li><a href="#">Mega Menu Item 1</a></li>
+                                            <li><a href="#">Mega Menu Item 2</a></li>
+                                            <li><a href="#">Mega Menu Item 3</a></li>
+                                            <li><a href="#">Mega Menu Item 4</a></li>
+                                            <li><a href="#">Mega Menu Item 5</a></li>
+                                        </ul>
+                                        <ul class="single-mega cn-col-4">
+                                            <li class="title">Headline 2</li>
+                                            <li><a href="#">Mega Menu Item 1</a></li>
+                                            <li><a href="#">Mega Menu Item 2</a></li>
+                                            <li><a href="#">Mega Menu Item 3</a></li>
+                                            <li><a href="#">Mega Menu Item 4</a></li>
+                                            <li><a href="#">Mega Menu Item 5</a></li>
+                                        </ul>
+                                        <ul class="single-mega cn-col-4">
+                                            <li class="title">Headline 3</li>
+                                            <li><a href="#">Mega Menu Item 1</a></li>
+                                            <li><a href="#">Mega Menu Item 2</a></li>
+                                            <li><a href="#">Mega Menu Item 3</a></li>
+                                            <li><a href="#">Mega Menu Item 4</a></li>
+                                            <li><a href="#">Mega Menu Item 5</a></li>
+                                        </ul>
+                                        <ul class="single-mega cn-col-4">
+                                            <li class="title">Headline 4</li>
+                                            <li><a href="#">Mega Menu Item 1</a></li>
+                                            <li><a href="#">Mega Menu Item 2</a></li>
+                                            <li><a href="#">Mega Menu Item 3</a></li>
+                                            <li><a href="#">Mega Menu Item 4</a></li>
+                                            <li><a href="#">Mega Menu Item -5</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+
+                            <!-- Search Form -->
+                            <div class="south-search-form">
+                                <form action="#" method="post">
+                                    <input type="search" name="search" id="search" placeholder="Search Anything ...">
+                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+
+                            <!-- Search Button -->
+                            <a href="#" class="searchbtn"><i class="fa" aria-hidden="true"></i></a>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel">
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/hero1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Find your home</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/hero2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Find your dream house</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/hero3.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h2 data-animation="fadeInUp" data-delay="100ms">Find your perfect house</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### Advance Search Area Start ##### -->
+    <div class="south-search-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="advanced-search-form">
+                        <!-- Search Title -->
+                        <div class="search-title">
+                            <p>Search for your home</p>
+                        </div>
+                        <!-- Search Form -->
+                        <form action="#" method="post" id="advanceSearch">
+                            <div class="row">
+
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="form-group">
+                                        <input type="input" class="form-control" name="input" placeholder="Keyword">
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="cities">
+                                            <option>All Cities</option>
+                                            <option>Nairobi</option>
+                                            <option>Mombasa</option>
+                                            <option>Kisumu</option>
+                                            <option>Nakuru</option>
+                                            <option>Taveta</option>
+                                            <option>Embu</option>
+                                            <option>Thika</option>
+                                            <option>Meru</option>
+                                            <option>Naivasha</option>
+                                            <option>Voi</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="catagories">
+                                            <option>All Catagories</option>
+                                            <option>Apartment</option>
+                                            <option>Flat</option>
+                                            <option>Farm</option>
+                                            <option>House</option>
+                                            <option>Store</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="offers">
+                                            <option>All Offers</option>
+                                            <option>100% OFF</option>
+                                            <option>75% OFF</option>
+                                            <option>50% OFF</option>
+                                            <option>25% OFF</option>
+                                            <option>10% OFF</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-xl-3">
+                                    <div class="form-group">
+                                        <select class="form-control" id="listings">
+                                            <option>All Listings</option>
+                                            <option>Karen</option>
+                                            <option>Runda</option>
+                                            <option>Kitengela Flats</option>
+                                            <option>Thika</option>
+                                            <option>Kisumu Estate</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-xl-2">
+                                    <div class="form-group">
+                                        <select class="form-control" id="bedrooms">
+                                            <option>Bedrooms</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>Special</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4 col-xl-2">
+                                    <div class="form-group">
+                                        <select class="form-control" id="bathrooms">
+                                            <option>Land Occupied</option>
+                                            <option>1/4 Acre</option>
+                                            <option>1/2 Acre</option>
+                                            <option>1 Acre</option>
+                                            <option>2 Acre</option>
+                                            <option>Special</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-8 col-lg-12 col-xl-5 d-flex">
+                                    <!-- Space Range -->
+                                    <div class="slider-range">
+                                        <div data-min="120" data-max="820" data-unit=" sq. ft" class="slider-range-price ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" data-value-min="120" data-value-max="820">
+                                            <div class="ui-slider-range ui-widget-header ui-corner-all"></div>
+                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+                                        </div>
+                                        <div class="range">120 sq. ft - 820 sq. ft</div>
+                                    </div>
+
+                                    <!-- Distance Range -->
+                                    <div class="slider-range">
+                                        <div data-min="10" data-max="1300" data-unit=" mil" class="slider-range-price ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" data-value-min="10" data-value-max="1300">
+                                            <div class="ui-slider-range ui-widget-header ui-corner-all"></div>
+                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+                                            <span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+                                        </div>
+                                        <div class="range">5 KM - 1300 KM</div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 search-form-second-steps">
+                                    <div class="row">
+
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <div class="form-group">
+                                                <select class="form-control" id="types">
+                                                    <option>All Types</option>
+                                                    <option>Apartment <span>(30)</span></option>
+                                                    <option>Land <span>(69)</span></option>
+                                                    <option>Villas <span>(103)</span></option>
+                                                    <option>Lands for Sale <span>(28)</span></option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <div class="form-group">
+                                                <select class="form-control" id="catagories2">
+                                                    <option>All Catagories</option>
+                                                    <option>Apartment</option>
+                                                    <option>Flats</option>
+                                                    <option>Farm</option>
+                                                    <option>House</option>
+                                                    <option>Store</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <div class="form-group">
+                                                <select class="form-control" id="Actions">
+                                                    <option>House Type</option>
+                                                    <option>Stone</option>
+                                                    <option>Wooden</option>
+                                                    <option>Special</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-4 col-lg-3">
+                                            <div class="form-group">
+                                                <select class="form-control" id="city2">
+                                                    <option>All Towns</option>
+                                                    <option>Nairobi</option>
+                                                    <option>Kisumu</option>
+                                                    <option>Mombasa</option>
+                                                    <option>Thika</option>
+                                                    <option>Nakuru</option>
+                                                    <option>Naivasha</option>
+                                                    <option>Embu</option>
+                                                     <option>Meru</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="col-12 d-flex justify-content-between align-items-end">
+                                    <!-- More Filter -->
+                                    <div class="more-filter">
+                                        <a href="#" id="moreFilter">+ More filters</a>
+                                    </div>
+                                    <!-- Submit -->
+                                    <div class="form-group mb-0">
+                                        <button type="submit" class="btn south-btn">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Advance Search Area End ##### -->
+
+    <!-- ##### Featured Properties Area Start ##### -->
+    <section class="featured-properties-area section-padding-100-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading wow fadeInUp">
+                        <h2>Featured Properties</h2>
+                        <p>We are the best construction company</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="100ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/feature1.jpg" alt="">
+
+                            <div class="tag">
+                                <span>For Sale</span>
+                            </div>
+                            <div class="list-price">
+                                <p>Ksh. 45,000,000</p>
+                            </div>
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>Nairobi, Runda</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">Flame Tree Lane</p>
+                            <p>Specious house with 4 bedrooms and swimming pool</p>
+                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                <div class="new-tag">
+                                    <img src="img/icons/new.png" alt="">
+                                </div>
+                                <div class="bathroom">
+                                    <img src="img/icons/bathtub.png" alt="">
+                                    <span>4</span>
+                                </div>
+                                <div class="garage">
+                                    <img src="img/icons/garage.png" alt="">
+                                    <span>5</span>
+                                </div>
+                                <div class="space">
+                                    <img src="img/icons/space.png" alt="">
+                                    <span>350 sq ft</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="200ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/feature2.jpg" alt="">
+
+                            <div class="tag">
+                                <span>For Sale</span>
+                            </div>
+                            <div class="list-price">
+                                <p>Ksh. 15,000,000</p>
+                            </div>
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>Nairobi, Garden Estate</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">Upper Road 3411, no.34 </p>
+                            <p>Specious house with 4 bedrooms and swimming pool</p>
+                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                <div class="new-tag">
+                                    <img src="img/icons/new.png" alt="">
+                                </div>
+                                <div class="bathroom">
+                                    <img src="img/icons/bathtub.png" alt="">
+                                    <span>3</span>
+                                </div>
+                                <div class="garage">
+                                    <img src="img/icons/garage.png" alt="">
+                                    <span>4</span>
+                                </div>
+                                <div class="space">
+                                    <img src="img/icons/space.png" alt="">
+                                    <span>190 sq ft</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/feature3.jpg" alt="">
+
+                            <div class="tag">
+                                <span>For Sale</span>
+                            </div>
+                            <div class="list-price">
+                                <p>Ksh 30,000,000</p>
+                            </div>
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>Mombasa, Nyali</h5>
+                            <p class="location"><img src="img/icons/location.png" alt=""> Nyali Ave 12</p>
+                            <p>Specious house with 4 bedrooms and swimming pool</p>
+                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                <div class="new-tag">
+                                    <img src="img/icons/new.png" alt="">
+                                </div>
+                                <div class="bathroom">
+                                    <img src="img/icons/bathtub.png" alt="">
+                                    <span>4</span>
+                                </div>
+                                <div class="garage">
+                                    <img src="img/icons/garage.png" alt="">
+                                    <span>4</span>
+                                </div>
+                                <div class="space">
+                                    <img src="img/icons/space.png" alt="">
+                                    <span>120 sq ft</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="400ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/feature4.jpg" alt="">
+
+                            <div class="tag">
+                                <span>For Sale</span>
+                            </div>
+                            <div class="list-price">
+                                <p>Ksh. 100,000,000</p>
+                            </div>
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>Nairobi, Muthaiga</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">Mg Road 234, no.36 </p>
+                             <p>Specious house with 4 bedrooms and swimming pool</p>
+                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                <div class="new-tag">
+                                    <img src="img/icons/new.png" alt="">
+                                </div>
+                                <div class="bathroom">
+                                    <img src="img/icons/bathtub.png" alt="">
+                                    <span>6</span>
+                                </div>
+                                <div class="garage">
+                                    <img src="img/icons/garage.png" alt="">
+                                    <span>7</span>
+                                </div>
+                                <div class="space">
+                                    <img src="img/icons/space.png" alt="">
+                                    <span>300 sq ft</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="500ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/feature5.jpg" alt="">
+
+                            <div class="tag">
+                                <span>For Sale</span>
+                            </div>
+                            <div class="list-price">
+                                <p>Ksh. 21,890,000</p>
+                            </div>
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>Machakos, Syokimau</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">1st ave, court 3, No. 23</p>
+                             <p>Specious house with 4 bedrooms and swimming pool</p>
+                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                <div class="new-tag">
+                                    <img src="img/icons/new.png" alt="">
+                                </div>
+                                <div class="bathroom">
+                                    <img src="img/icons/bathtub.png" alt="">
+                                    <span>4</span>
+                                </div>
+                                <div class="garage">
+                                    <img src="img/icons/garage.png" alt="">
+                                    <span>5</span>
+                                </div>
+                                <div class="space">
+                                    <img src="img/icons/space.png" alt="">
+                                    <span>120 sq ft</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Featured Property -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="600ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/feature6.jpg" alt="">
+
+                            <div class="tag">
+                                <span>For Sale</span>
+                            </div>
+                            <div class="list-price">
+                                <p>Ksh. 45,000,000</p>
+                            </div>
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>Nairobi, New Kitsuru</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">Lower Kabete Rd. court 1.</p>
+                             <p>Specious house with 4 bedrooms and swimming pool</p>                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                <div class="new-tag">
+                                    <img src="img/icons/new.png" alt="">
+                                </div>
+                                <div class="bathroom">
+                                    <img src="img/icons/bathtub.png" alt="">
+                                    <span>5</span>
+                                </div>
+                                <div class="garage">
+                                    <img src="img/icons/garage.png" alt="">
+                                    <span>5</span>
+                                </div>
+                                <div class="space">
+                                    <img src="img/icons/space.png" alt="">
+                                    <span>220 sq ft</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Featured Properties Area End ##### -->
+
+    
+
+    <!-- ##### Testimonials Area Start ##### -->
+    <section class="south-testimonials-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading wow fadeInUp" data-wow-delay="250ms">
+                        <h2>Client testimonials</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="testimonials-slides owl-carousel wow fadeInUp" data-wow-delay="500ms">
+
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide text-center">
+                            <h5>Perfect Home for me</h5>
+                            <p>Thank you for helping our new hires by explaining our sales process. The presentation you gave yesterday was very simple and easy to understand. The clear way you presented our sales process is going to help them get up to speed quickly. You've saved them probably a week's worth of work, since now they don't have to dig around for their own answers. They'll have your handy slides to use as reference. Thank you so much, your presentation really made a difference! Your are the best Construction company.</p>
+
+                            <div class="testimonial-author-info">
+                                <img src="img/bg-img/feature6.jpg" alt="">
+                                <p>Kelvin Gauki <span>Customer</span></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide text-center">
+                            <h5>Perfect Home for me</h5>
+                            <p>I really appreciate the way you handled that customer issue yesterday. I know that working in customer service can be really hard sometimes. It takes a lot of energy and self-control to deal with an unhappy customer. I really admire your ability to stay calm and positive in difficult situations. Also, your ability to understand our customers' problems and quickly develop suitable solutions is a real next-level problem-solving skill. I recommend more customer to use your services.</p>
+
+                            <div class="testimonial-author-info">
+                                <img src="img/bg-img/feature6.jpg" alt="">
+                                <p>Jackan Mramba <span>Customer</span></p>
+                            </div>
+                        </div>
+
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide text-center">
+                            <h5>Perfect Home for me</h5>
+                            <p>You did an excellent job yesterday by gathering all of your team members and asking them for an input regarding XY. This really helped everyone feel like they were part of the process. I also liked how you asked everyone a question related to their expertise. It was a great way to encourage participation. What you did yesterday with that meeting is a great example of a true teamwork we would like to encourage in our company. Nicely done! Prime Plan is the best!!</p>
+
+                            <div class="testimonial-author-info">
+                                <img src="img/bg-img/feature6.jpg" alt="">
+                                <p>Denis Muchira <span>Customer</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Testimonials Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area section-padding-100-0 bg-img gradient-background-overlay" style="background-image: url(img/bg-img/cta.jpg);">
+        <!-- Main Footer Area -->
+        <div class="main-footer-area">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>About Us</h6>
+                            </div>
+
+                            <img src="img/bg-img/footer.jpg" alt="">
+                            <div class="footer-logo my-4">
+                                <img src="img/core-img/logo.png" alt="">
+                            </div>
+                            <p><b>?We are a construction company based in Nairobi kenya. We are the best constrction company offering the following....</b>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>Hours</h6>
+                            </div>
+                            <!-- Office Hours -->
+                            <div class="weekly-office-hours">
+                                <ul>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Monday - Friday</span> <span>08 AM - 5 PM</span></li>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Saturday</span> <span>09 AM - 14 PM</span></li>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Sunday</span> <span>Closed</span></li>
+                                </ul>
+                            </div>
+                            <!-- Address --> 
+                            <div class="address">
+                                <h6><img src="img/icons/phone-call.png" alt=""> +254 714 250 700</h6>
+                                <h6><img src="img/icons/envelope.png" alt="">info@primeplan.com</h6>
+                                <h6><img src="img/icons/location.png" alt=""> Nairobi, Kenyatta Ave, DB house.</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>Useful Links</h6>
+                            </div>
+                            <!-- Nav -->
+                            <ul class="useful-links-nav d-flex align-items-center">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Properties</a></li>
+                                <li><a href="#">Listings</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Properties</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Elements</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>Featured Properties</h6>
+                            </div>
+                            <!-- Featured Properties Slides -->
+                            <div class="featured-properties-slides owl-carousel">
+                                <!-- Single Slide -->
+                                <div class="single-featured-properties-slide">
+                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                </div>
+                                <!-- Single Slide -->
+                                <div class="single-featured-properties-slide">
+                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                </div>
+                                <!-- Single Slide -->
+                                <div class="single-featured-properties-slide">
+                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Copywrite Text -->
+        <div class="copywrite-text d-flex align-items-center justify-content-center">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |This Site is Developed  <i  aria-hidden="true"></i> by <a href="https://dataconsultancy.co.ke" target="_blank">Data Consultancy Limited</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>   
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWDPCiH080dNCTYC-uprmLOn2mt2BMSUk&amp;sensor=true"></script> 
-    <script src="js/init.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <script src="js/classy-nav.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
 </body>
+
 </html>

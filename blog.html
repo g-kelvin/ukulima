@@ -1,353 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <title>UKULIMA AGROVET</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/pe-icons.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <script src="js/jquery.js"></script>
-    <link rel="shortcut icon" href="images/ico/nice.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/images/ico/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57x57.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <script type="text/javascript">
-    jQuery(document).ready(function($){
-    'use strict';
-        jQuery('body').backstretch([
-            "http://placehold.it/Ukulima",
-            "http://placehold.it/Ukulima",
-            "http://placehold.it/Ukulima"
-        ], {duration: 5000, fade: 500});
+    <!-- Title  -->
+    <title>Prime Plan Limited</title>
 
-        $("#mapwrapper").gMap({ controls: false,
-            scrollwheel: false,
-            markers: [{     
-                latitude:40.7566,
-                longitude: -73.9863,
-            icon: { image: "images/marker.png",
-                iconsize: [44,44],
-                iconanchor: [12,46],
-                infowindowanchor: [12, 0] } }],
-            icon: { 
-                image: "images/marker.png", 
-                iconsize: [26, 46],
-                iconanchor: [12, 46],
-                infowindowanchor: [12, 0] },
-            latitude:40.7566,
-            longitude: -73.9863,
-            zoom: 14 });
-    });
-    </script>
-</head><!--/head-->
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
 <body>
-<div id="preloader"></div>
-    <header class="navbar navbar-inverse navbar-fixed-top opaqued" role="banner">
-    <div id="search-wrapper">
-        <div class="container">
-            <input id="search-box" placeholder="Search">
-        </div>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="south-load"></div>
     </div>
-    </div>
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span>UKULIMA AGROVET</h1></a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="achievements.html">Achievements</a></li>
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product<i class="icon-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="portfolio.html">Product</a></li>
-                            <li><a href="new.html">New Arrivals</a></li>
 
-                        </ul>
-                    </li>
-                     <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<i class="icon-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="gallery.html">gallery</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="career.html">Career</a></li> 
-                    <li><a href="contact-us.html">Contact</a></li> 
-                    <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
-                </ul>
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Top Header Area -->
+        <div class="top-header-area">
+            <div class="h-100 d-md-flex justify-content-between align-items-center">
+                <div class="email-address">
+                    <a href="mailto:contact@southtemplate.com">info@primeplan.com</a>
+                </div>
+                <div class="phone-number d-flex">
+                    <div class="icon">
+                        <img src="img/icons/phone-call.png" alt="">
+                    </div>
+                    <div class="number">
+                        <a href="tel:+45 677 8993000 223">+254 714 250 700</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </header><!--/header-->
 
-    <section id="single-page-slider" class="no-margin">
-        <div class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="center gap fade-down section-heading">
-                                    <h2 class="main-title">Our Blog</h2>
-                                    <hr>
-                                    <p>Increase your knowledge in farming by reading our blogs</p>
-                                </div>
-                            </div>   
+        <!-- Main Header Area -->
+        <div class="main-header-area" id="stickyHeader">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="southNav">
+
+                    <!-- Logo -->
+                    <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- close btn -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Our Works</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Listings</a>
+                                            <ul class="dropdown">
+                                                <li><a href="listings.html">Listings</a></li>
+                                                <li><a href="single-listings.html">Single Listings</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="listings.html">Properties</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="#">Mega Menu</a>
+                                    <div class="megamenu">
+                                        <ul class="single-mega cn-col-4">
+                                            <li class="title">Headline 1</li>
+                                            <li><a href="#">Mega Menu Item 1</a></li>
+                                            <li><a href="#">Mega Menu Item 2</a></li>
+                                            <li><a href="#">Mega Menu Item 3</a></li>
+                                            <li><a href="#">Mega Menu Item 4</a></li>
+                                            <li><a href="#">Mega Menu Item 5</a></li>
+                                        </ul>
+                                        <ul class="single-mega cn-col-4">
+                                            <li class="title">Headline 2</li>
+                                            <li><a href="#">Mega Menu Item 1</a></li>
+                                            <li><a href="#">Mega Menu Item 2</a></li>
+                                            <li><a href="#">Mega Menu Item 3</a></li>
+                                            <li><a href="#">Mega Menu Item 4</a></li>
+                                            <li><a href="#">Mega Menu Item 5</a></li>
+                                        </ul>
+                                        <ul class="single-mega cn-col-4">
+                                            <li class="title">Headline 3</li>
+                                            <li><a href="#">Mega Menu Item 1</a></li>
+                                            <li><a href="#">Mega Menu Item 2</a></li>
+                                            <li><a href="#">Mega Menu Item 3</a></li>
+                                            <li><a href="#">Mega Menu Item 4</a></li>
+                                            <li><a href="#">Mega Menu Item 5</a></li>
+                                        </ul>
+                                        <ul class="single-mega cn-col-4">
+                                            <li class="title">Headline 4</li>
+                                            <li><a href="#">Mega Menu Item 1</a></li>
+                                            <li><a href="#">Mega Menu Item 2</a></li>
+                                            <li><a href="#">Mega Menu Item 3</a></li>
+                                            <li><a href="#">Mega Menu Item 4</a></li>
+                                            <li><a href="#">Mega Menu Item 5</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+
+                            <!-- Search Form -->
+                            <div class="south-search-form">
+                                <form action="#" method="post">
+                                    <input type="search" name="search" id="search" placeholder="Search Anything ...">
+                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+
+                            <!-- Search Button -->
+                            <a href="#" class="searchbtn"><i class="fa" aria-hidden="true"></i></a>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <section class="breadcumb-area bg-img" style="background-image: url(img/bg-img/hero1.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content">
+                        <h3 class="breadcumb-title">Blog</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <!-- ##### Blog Area Start ##### -->
+    <section class="south-blog-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                   
+                    <!-- Single Blog Area -->
+                    <div class="single-blog-area mb-50">
+                        <!-- Post Thumbnail -->
+                        <div class="blog-post-thumbnail">
+                            <img src="img/blog-img/blog1.jpg" alt="">
+                        </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <!-- Date -->
+                            <div class="post-date">
+                                <a href="#">March 02, 2020</a>
+                            </div>
+                            <!-- Headline -->
+                            <a href="#" class="headline">How to get the best deal for your house</a>
+                            <!-- Post Meta -->
+                            <div class="post-meta">
+                                <p>By <a href="#">Admin</a> | in <a href="#">Uncategorized</a> | <a href="#">20 Comments</a></p>
+                            </div>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odiomattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Curabitur rhoncus auctor eleifend.</p>
+                            <!-- Read More btn -->
+                            <a href="#" class="btn south-btn">Read More</a>
                         </div>
                     </div>
-                </div><!--/.item-->
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
-    </section><!--/#main-slider-->
-
-    <div id="content-wrapper">
-        <section id="blog" class="white">
-            <div class="container">            
-            <div class="gap"></div>
-                <div class="row">
-                    <aside class="col-sm-4 col-sm-push-8">
-                        <div class="widget search">
-                            <form role="form">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" autocomplete="off" placeholder="Search">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-primary btn-outlined" type="button"><i class="fa fa-search"></i></button>
-                                    </span>
-                                </div>
-                            </form>
-                        </div><!--/.search--> 
-
-                        <div class="widget categories">
-                            <h3 class="widget-title">Blog Categories</h3>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <ul class="arrow">
-                                        <li>Dairy Cattles</li>
-                                        <li>Farming</li>
-                                        <li>Vegetables</li>
-                                        <li>Fruits</li>
-                                        <li>Veterinary</li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-6">
-                                    <ul class="arrow">
-                                        <li>Animal Drugs</li>
-                                        <li>Poultry</li>
-                                        <li>Goats</li>
-                                        <li>Sheeps</li>
-                                        <li>Crops</li>
-                                    </ul>
-                                </div>
-                            </div>                     
-                        </div><!--/.categories-->
-
-                    </aside>        
-                    <div class="col-sm-8 col-sm-pull-4">
-                        <div class="blog">
-                            <div class="blog-item">
-                                <div class="blog-featured-image">
-                                    <img class="img-responsive img-blog" src="images/team/cow1.jpg" alt="" />
-                                    <div class="overlay">
-                                        <a class="preview btn btn-outlined btn-primary" href="blog-item.html" rel="prettyPhoto"><i class="fa fa-link"></i></a>
-                                    </div>  
-                                </div>  
-                                <div class="blog-content">
-                                    <a href="blog-item.html"><h3 class="main-title">Dairy Farming in Kenya</h3></a>
-                                    <div class="entry-meta">
-                                        <span><i class="fa fa-user"></i> <a href="#"> Cyprian Murithi</a></span>
-                                        <span><i class="fa fa-folder"></i> <a href="#"> cool</a></span>
-                                        <span><i class="fa fa-clock-o"></i> FEB 5th, 2019</span>
-                                        <span><i class="fa fa-comment"></i> <a href="blog-item.html#comments"><span class="counter">14</span> Comments</a></span>
-                                    </div>
-                                    <p>Fleckvieh is a hardy breed that can resist diseases, eats less and produces more high quality milk. Kenyan dairy farmers are used to the common exotic breeds of dairy cows such as the Holstein-Fresians, Ayrshire, Guernsey or even Jerseys. For two years now, a new cattle breed has attracted the attention of Kenyan dairy farmers: Fleckvieh is a high yielding, dual-purpose cow that can be used for both dairy and beef production. Kenyan farmers who have discovered the qualities of this breed have introduced them into their herds. So far, more than 20,000 farmers in Kenya have adopted the breed. Years of selective breeding Fleckvieh (or Miling Simmental) is the second largest dairy breed in the world – and one of Europe’s oldest. At the moment, there are an estimated 42 million cattle with Fleckvieh bloodlines worldwide. Developed in the highlands of Germany, Switzerland and Austria, the breed became popular in most parts of the world because of their adaptability to harsh climatic conditions. Through many years of selective breeding, Fleckvieh has acquired some of the characteristics that dairy farmers are looking for. The Fleckvieh breed was introduced by Fleckvieh Genetics East Africa (FGEA) from South Africa in 2009.  </p>
-                                </div>
-                            </div><!--/.blog-item-->
-                            <div class="blog-item">
-                                <div class="blog-featured-image">
-                                    <img class="img-responsive img-blog" src="images/team/kuku1.jpg" alt="" />
-                                    <div class="overlay">
-                                        <a class="preview btn btn-outlined btn-primary" href="blog-item.html" rel="prettyPhoto"><i class="fa fa-link"></i></a>
-                                    </div>  
-                                </div>  
-                                <div class="blog-content">
-                                    <a href="blog-item.html"><h3 class="main-title">How To Start Poultry Farming</h3></a>
-                                    <div class="entry-meta">
-                                        <span><i class="fa fa-user"></i> <a href="#">Cyprian Murithi</a></span>
-                                        <span><i class="fa fa-folder"></i> <a href="#"> good</a></span>
-                                        <span><i class="fa fa-clock-o"></i> Feb 5th, 2019</span>
-                                        <span><i class="fa fa-comment"></i> <a href="blog-item.html#comments"><span class="counter">14</span> Comments</a></span>
-                                    </div>
-                                    <p>Poultry cultivating in Kenya is a profitable business. The rise of key restaurants and hotels even makes it better. There is never a deficiency of poultry demand, even besides restaurants and eateries, Kenyans themselves consider chicken meat and eggs to be an important part of their diet.<br>
-                                    Chicken rearing in Kenya<br>
-                                     Most poultry farmers in Kenya concentrate on rearing chicken. The best example is the Muguku poultry farm in Kenya which is dedicated to providing a hatchery for chickens and selling chicks to Kenyan poultry farmers.<br>Raising turkeys in Kenya <br>
-                                    This is generally done on a small scale and very few agriculturists raise turkeys for profit. Be that as it may, contrasted with chicken, turkeys bring in more cash. Geese farming in Kenya Albeit a great many people have not found the specialty of rearing geese in Kenya, the individuals who have dived in enjoy an assortment of advantages, from making profit to enhanced security.</p>
-                                </div>
-                            </div><!--/.blog-item-->
-                            <div class="blog-item">
-                                <div class="blog-featured-image">
-                                    <img class="img-responsive img-blog" src="images/team/toma.png" alt="" />
-                                    <div class="overlay">
-                                        <a class="preview btn btn-outlined btn-primary" href="blog-item.html" rel="prettyPhoto"><i class="fa fa-link"></i></a>
-                                    </div>  
-                                </div>  
-                                <div class="blog-content">
-                                    <a href="blog-item.html"><h3 class="main-title">Mistakes to avoid in tomato farming</h3></a>
-                                    <div class="entry-meta">
-                                        <span><i class="fa fa-user"></i> <a href="#">Cyprian Murithi</a></span>
-                                        <span><i class="fa fa-folder"></i> <a href="#"> Cool</a></span>
-                                        <span><i class="fa fa-clock-o"></i> Feb 5th, 2019</span>
-                                        <span><i class="fa fa-comment"></i> <a href="blog-item.html#comments"><span class="counter">140</span> Comments</a></span>
-                                    </div>
-                                    <p>
-                                        <b>1. Not Hardening Seedlings</b><br>
-
-                                        Hardening your seedlings is one of the most important things you can do to help ensure their survival. Without hardening, your seedlings won’t be able to adapt to the change in temperature or the exposure to weather, like wind and rain. Some ways to ensure your seedlings are outdoor-ready include:<br>
-                                    - Gradually increase your seedlings’ exposure to the elements about a month after seeds have germinated.<br>
-                                    - For the first day of exposure, keep your plants out of direct sunlight or rain, and don’t take them out in the cold. Bring them back in after a few hours.<br>
-                                    - Seedlings will need to be exposed to the elements increasingly over a period of about 7-10 days to be fully hardened and ready for the outdoors.<br><br>
-                                    <b>2. Planting Too Closely</b><br>
-                                    Planting your tomatoes too closely not only stunts their growth and causes a drop in fruit production, but it also makes it too difficult for sun to reach through the plants. This means your tomato plant suddenly becomes the perfect breeding ground for plant diseases that love the damp conditions. Here’s how to ensure your tomato plants have adequate spacing:<br>
-
-                                    - Tomatoes grown upright in cages need at least 1 ½ feet between them, though 2 feet is ideal. Sprawling tomatoes will require twice the amount of space. While it’s not a big deal to leave your plants slightly unsupported, you never want the plant to be touching the ground.<br><br>
-                                    <b>3. Planting the Wrong Tomatoes</b><br>
-                                    Now that we’ve covered spacing requirements, the next step is choosing the right type of tomatoes for the amount of room you have. There are two main categories of tomato plants:<br>
-
-                                    - Determinate tomatoes only grow to be a certain size. They can be grown with or without support and don’t require pruning. These plants generally put out all their fruit, then they stop growing and die.<br>
-
-                                    - Indeterminate tomatoes will grow pretty much as big as you allow them to get. Therefore, they need more room and require support from a stake or cage. These plants will put out fruit all season, sometimes until the first frost.<br>
-                                    - Picking the correct type for your planting area will help you ensure your plants stay healthy and fruit-bearing all season.
-
-                                </p>
-                                </div>
-                            </div><!--/.blog-item-->
-                            <div class="blog-item">
-                                <div class="blog-featured-image">
-                                    <img class="img-responsive img-blog" src="images/team/coff.jpg" alt="" />
-                                    <div class="overlay">
-                                        <a class="preview btn btn-outlined btn-primary" href="blog-item.html" rel="prettyPhoto"><i class="fa fa-link"></i></a>
-                                    </div>  
-                                </div>  
-                                <div class="blog-content">
-                                    <a href="blog-item.html"><h3 class="main-title">Coffee Calendar</h3></a>
-                                    <div class="entry-meta">
-                                        <span><i class="fa fa-user"></i> <a href="#">Cyprian Murithi</a></span>
-                                        <span><i class="fa fa-folder"></i> <a href="#"> Cool</a></span>
-                                        <span><i class="fa fa-clock-o"></i> Jan 1th, 2019</span>
-                                        <span><i class="fa fa-comment"></i> <a href="blog-item.html#comments"><span class="counter">14</span> Comments</a></span>
-                                    </div>
-                                    <p>“In line with the calendar, the first process is to induce flowering and spray the trees with foliar fertiliser in January and February when it is dry because the trees feed through leaves, not roots. Next step is to spray the plants with copper, in May</p>
-                                </div>
-                            </div><!--/.blog-item-->
-                            <ul class="pagination pagination-lg">
-                                <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-                                <li class="active"><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
-                                <li><a href="#">5</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                            </ul><!--/.pagination-->
+                   
+                    <!-- Single Blog Area -->
+                    <div class="single-blog-area mb-50">
+                        <!-- Post Thumbnail -->
+                        <div class="blog-post-thumbnail">
+                            <img src="img/blog-img/blog2.jpg" alt="">
                         </div>
-                    </div><!--/.col-md-8-->
-                </div><!--/.row-->
-            </div>
-        </section><!--/#blog-->
-    </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <!-- Date -->
+                            <div class="post-date">
+                                <a href="#">March 03, 2020</a>
+                            </div>
+                            <!-- Headline -->
+                            <a href="#" class="headline">How to get the best deal for your house</a>
+                            <!-- Post Meta -->
+                            <div class="post-meta">
+                                <p>By <a href="#">Admin</a> | in <a href="#">Uncategorized</a> | <a href="#">13 Comments</a></p>
+                            </div>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odiomattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Curabitur rhoncus auctor eleifend.</p>
+                            <!-- Read More btn -->
+                            <a href="#" class="btn south-btn">Read More</a>
+                        </div>
+                    </div>
+                   
+                    <!-- Single Blog Area -->
+                    <div class="single-blog-area mb-50">
+                        <!-- Post Thumbnail -->
+                        <div class="blog-post-thumbnail">
+                            <img src="img/blog-img/blog3.jpg" alt="">
+                        </div>
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <!-- Date -->
+                            <div class="post-date">
+                                <a href="#">March 04, 2020</a>
+                            </div>
+                            <!-- Headline -->
+                            <a href="#" class="headline">How to get the best deal for your house</a>
+                            <!-- Post Meta -->
+                            <div class="post-meta">
+                                <p>By <a href="#">Admin</a> | in <a href="#">Uncategorized</a> | <a href="#">10 Comments</a></p>
+                            </div>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odiomattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Curabitur rhoncus auctor eleifend.</p>
+                            <!-- Read More btn -->
+                            <a href="#" class="btn south-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
 
-    <div id="footer-wrapper">
-        <section id="bottom" class="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 about-us-widget">
-                        <h4>Powered BY:</h4>
-                        <p>The Ukulima Agrovet Website is Powered and services by Data Consultancy Limited. To get Data Consultancy Liimited Services Click <a href="http://www.dataconsultancy.co.ke" style="color: blue"><b>Data Consultancy Limited</b></a></p>
-                    </div><!--/.col-md-3-->
+                <div class="col-12 col-lg-4">
+                    <div class="blog-sidebar-area">
 
+                        <!-- Search Widget -->
+                        <div class="search-widget-area mb-70">
+                            <form action="#" method="get">
+                                <input type="search" name="search" id="search" placeholder="Search">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
 
-                    <div class="col-md-3 col-sm-6">
-                        <h4>Our Core Values</h4>
-                        <div>
-                            <ul class="arrow">
-                                <li>Honest</li>
-                                <li>Reliable</li>
-                                <li>Integrity</li>
-                                <li>Caring</li>
+                        <!-- Catagories Widget -->
+                        <div class="south-catagories-card mb-70">
+                            <h5>Archive</h5>
+                            <ul class="catagories-menu">
+                                <li><a href="#">Radiology</a></li>
+                                <li><a href="#">Cardiology</a></li>
+                                <li><a href="#">Gastroenterology</a></li>
+                                <li><a href="#">Neurology</a></li>
+                                <li><a href="#">General surgery</a></li>
                             </ul>
                         </div>
-                    </div><!--/.col-md-3-->
 
-                    <div class="col-md-3 col-sm-6">
-                        <h4>Our YouTube</h4>
-                        <div>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <img class="widget-img" src="http://placehold.it/800x600" alt="">
+                        <!-- Catagories Widget -->
+                        <div class="south-catagories-card mb-70">
+                            <h5>Categories</h5>
+                            <ul class="catagories-menu">
+                                <li><a href="#">Radiology</a></li>
+                                <li><a href="#">Cardiology</a></li>
+                                <li><a href="#">Gastroenterology</a></li>
+                                <li><a href="#">Neurology</a></li>
+                                <li><a href="#">General surgery</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Catagories Widget -->
+                        <div class="featured-properties-slides owl-carousel">
+
+                            <!-- Single Slide -->
+                            <div class="single-featured-property">
+                                <!-- Property Thumbnail -->
+                                <div class="property-thumb">
+                                    <img src="img/bg-img/feature1.jpg" alt="">
+
+                                    <div class="tag">
+                                        <span>For Sale</span>
                                 </div>
-                                <div class="media-body">
-                                    <span class="media-heading"><a href="#">Daily Advice</a></span>
-                                    <small class="muted">Posted 14 feb 2019</small>
+                                <div class="list-price">
+                                    <p>Ksh. 45,000,000</p>
                                 </div>
                             </div>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <img class="widget-img" src="http://placehold.it/800x600" alt="">
-                                </div>
-                                <div class="media-body">
-                                    <span class="media-heading"><a href="#">How to Farm</a></span>
-                                    <small class="muted">Posted 02 Mar 2019</small>
+                            <!-- Property Content -->
+                            <div class="property-content">
+                                <h5>Nairobi, Runda</h5>
+                                <p class="location"><img src="img/icons/location.png" alt="">Flame Tree Lane</p>
+                                <p>Specious house with 4 bedrooms and swimming pool</p>
+                                <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                    <div class="new-tag">
+                                        <img src="img/icons/new.png" alt="">
+                                    </div>
+                                    <div class="bathroom">
+                                        <img src="img/icons/bathtub.png" alt="">
+                                        <span>4</span>
+                                    </div>
+                                    <div class="garage">
+                                        <img src="img/icons/garage.png" alt="">
+                                        <span>5</span>
+                                    </div>
+                                    <div class="space">
+                                        <img src="img/icons/space.png" alt="">
+                                        <span>350 sq ft</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>  
-                    </div><!--/.col-md-3-->
 
-                    <div class="col-md-3 col-sm-6">
-                        <h4>Ukulima Agrovet</h4>
-                         <span class="icon icon-envelop"></span> <a href="#">Kerugoya,Kenya</a> <br/>
-                                <span class="icon icon-twitter"></span> <a href="#">P.O. Box 1034</a> <br/>
-                         <abbr title="Phone"><i class="fa fa-phone"></i></abbr>+254722566917<br>
-                                <span class="icon icon-facebook"></span> <a href="#">Ukilimaagrovet@gmail.com</a> <br/>
-                        </address>
-                    </div> <!--/.col-md-3-->
+                            <!-- Single Slide -->
+                            <div class="single-featured-property">
+                                <!-- Property Thumbnail -->
+                                <div class="property-thumb">
+                                    <img src="img/bg-img/feature2.jpg" alt="">
+
+                                    <div class="tag">
+                                        <span>For Sale</span>
+                                </div>
+                                <div class="list-price">
+                                    <p>Ksh. 15,000,000</p>
+                                </div>
+                            </div>
+                            <!-- Property Content -->
+                            <div class="property-content">
+                                <h5>Nairobi, Garden Estate</h5>
+                                <p class="location"><img src="img/icons/location.png" alt="">Upper Road 3411, no.34</p>
+                                <p>Specious house with 4 bedrooms and swimming pool</p>
+                                <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                    <div class="new-tag">
+                                        <img src="img/icons/new.png" alt="">
+                                    </div>
+                                    <div class="bathroom">
+                                        <img src="img/icons/bathtub.png" alt="">
+                                        <span>3</span>
+                                    </div>
+                                    <div class="garage">
+                                        <img src="img/icons/garage.png" alt="">
+                                        <span>4</span>
+                                    </div>
+                                    <div class="space">
+                                        <img src="img/icons/space.png" alt="">
+                                        <span>190 sq ft</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-        </section><!--/#bottom-->
-        <footer id="footer" class="">
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Pagination -->
+                    <div class="south-pagination mt-100 d-flex">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link active" href="#">01</a></li>
+                                <li class="page-item"><a class="page-link" href="#">02</a></li>
+                                <li class="page-item"><a class="page-link" href="#">03</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Blog Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+   <footer class="footer-area section-padding-100-0 bg-img gradient-background-overlay" style="background-image: url(img/bg-img/cta.jpg);">
+        <!-- Main Footer Area -->
+        <div class="main-footer-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
-                        &copy; 2019 All Rights Reserved.
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>About Us</h6>
+                            </div>
+
+                            <img src="img/bg-img/footer.jpg" alt="">
+                            <div class="footer-logo my-4">
+                                <img src="img/core-img/logo.png" alt="">
+                            </div>
+                            <p><b>?We are a construction company based in Nairobi kenya. We are the best constrction company offering the following....</b>
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-sm-6">
-                        <ul class="pull-right">
-                            <li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li><!--#gototop-->
-                        </ul>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>Hours</h6>
+                            </div>
+                            <!-- Office Hours -->
+                            <div class="weekly-office-hours">
+                                <ul>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Monday - Friday</span> <span>08 AM - 5 PM</span></li>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Saturday</span> <span>09 AM - 14 PM</span></li>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Sunday</span> <span>Closed</span></li>
+                                </ul>
+                            </div>
+                            <!-- Address --> 
+                            <div class="address">
+                                <h6><img src="img/icons/phone-call.png" alt=""> +254 714 250 700</h6>
+                                <h6><img src="img/icons/envelope.png" alt="">info@primeplan.com</h6>
+                                <h6><img src="img/icons/location.png" alt=""> Nairobi, Kenyatta Ave, DB house.</h6>
+                            </div>
+                        </div>
                     </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>Useful Links</h6>
+                            </div>
+                            <!-- Nav -->
+                            <ul class="useful-links-nav d-flex align-items-center">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Properties</a></li>
+                                <li><a href="#">Listings</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Properties</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Elements</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>Featured Properties</h6>
+                            </div>
+                            <!-- Featured Properties Slides -->
+                            <div class="featured-properties-slides owl-carousel">
+                                <!-- Single Slide -->
+                                <div class="single-featured-properties-slide">
+                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                </div>
+                                <!-- Single Slide -->
+                                <div class="single-featured-properties-slide">
+                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                </div>
+                                <!-- Single Slide -->
+                                <div class="single-featured-properties-slide">
+                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </footer><!--/#footer-->
-    </div>
+        </div>
 
+        <!-- Copywrite Text -->
+        <div class="copywrite-text d-flex align-items-center justify-content-center">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |This Site is Developed  <i  aria-hidden="true"></i> by <a href="https://dataconsultancy.co.ke" target="_blank">Data Consultancy Limited</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
+    <!-- Plugins js -->
     <script src="js/plugins.js"></script>
-    <script src="js/init.js"></script>
+    <script src="js/classy-nav.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
 </body>
+
 </html>
