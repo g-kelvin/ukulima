@@ -1,0 +1,20 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ https://www.ukulimaagrovet.co.ke/$1 [R,L]
+
+# Add the redirects for urls
+RewriteRule ^/?$ index.html [NC,L]
+RewriteRule ^about-us/?$ about-us.html [NC,L]
+RewriteRule ^achievement/?$ achievement.html [NC,L]
+RewriteRule ^contact/?$ contact.html [NC,L]
+RewriteRule ^messaging/?$ messaging.php [NC,L]
+RewriteRule ^murithi/?$ murithi.html [NC,L]
+RewriteRule ^product-us/?$ product.html [NC,L]
+RewriteRule ^roy-us/?$ roy.html [NC,L]
+RewriteRule ^services/?$ services.html [NC,L]
+RewriteRule ^careers/?$ careers.html [NC,L]
+
