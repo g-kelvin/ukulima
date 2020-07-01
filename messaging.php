@@ -135,7 +135,7 @@
 
 		$to = "info@ukulimaagrovet.co.ke";
 		$subject = 'Message from Ukulima Agrovet'." , ";
-		$msg ="Name:".$name." , "."Telephone:".$subject."wrote the following:".$message;
+		$msg ="Name: ".$name." , "."Telephone: ".$telephone." , "." Subject: ".$subject."wrote the following: ".$message;
 		$headers ="From: ".$email;
          if(mail($to,$subject,$msg,$headers)){
          	
@@ -199,7 +199,7 @@ else {
                             <div class="weekly-office-hours">
                                 <ul>
                                     <li class="d-flex align-items-center justify-content-between"><span>Monday - Friday</span> <span>08 AM - 5 PM</span></li>
-                                    <li class="d-flex align-items-center justify-content-between"><span>Saturday</span> <span>09 AM - 17 PM</span></li>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Saturday</span> <span>09 AM - 5 PM</span></li>
                                     <li class="d-flex align-items-center justify-content-between"><span>Sunday</span> <span>Closed</span></li>
                                 </ul>
                             </div>
